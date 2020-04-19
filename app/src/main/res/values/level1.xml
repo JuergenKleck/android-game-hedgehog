@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <array name="level_food_tiles">
+        <item>@drawable/food1</item>
+        <item>@drawable/food2</item>
+        <item>@drawable/food3</item>
+    </array>
+
+    <array name="level_hunter_tiles">
+        <item>@drawable/fox</item>
+    </array>
+   
+    <array name="level_tunnel_tiles">
+        <item>@drawable/tunnel0</item>
+        <item>@drawable/tunnel1</item>
+    </array>
+   
+</resources>

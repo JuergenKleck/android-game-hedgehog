@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hedgehog</string>
+    <string name="creator">SimplyApps.info</string>
+  	<string name="btn_quit">Quit</string>
+  	<string name="btn_ok">OK</string>
+  	<string name="error">Error</string>
+    <string name="application_error">Application error: %1$s</string>
+   
+    <string name="statistic_highscore">Highscore:</string>
+    <string name="zero">0</string>
+    <string name="statistic_lastgame">Last Game:</string>
+    <string name="statistic_currentgame">Current Game:</string>
+    
+    <string name="options">Options:</string>
+    <string name="options_music">Music</string>
+    <string name="options_difficulty">Difficulty</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    
+    <string name="menubutton_start">PLAY</string>
+    <string name="menubutton_score">SCORE</string>
+    <string name="menubutton_options">OPTIONS</string>
+    <string name="menubutton_back">BACK</string>
+    <string name="menubutton_accept">ACCEPT</string>
+    <string name="menubutton_cancel">CANCEL</string>
+    <string name="menubutton_pause">PAUSE</string>
+    <string name="menubutton_resume">RESUME</string>
+    <string name="menubutton_launch">LAUNCH</string>
+    <string name="menubutton_option_misc">MISC</string>
+    <string name="menubutton_option_upgrade">ITEMS</string>
+    <string name="menubutton_continue">CONTINUE</string>
+    
+    <string name="message_loading">LOADING</string>
+    <string name="message_gameround">ROUND {0}</string>
+    <string name="message_gamelost">GAME OVER</string>
+    <string name="message_gamewon">GAME WON</string>
+    <string name="message_score">SCORE {0}:</string>
+    <string name="message_coins">TOTAL COINS:</string>
+    <string name="message_points">TOTAL POINTS:</string>
+    
+    
+</resources>

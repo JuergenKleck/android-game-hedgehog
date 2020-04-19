@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:simplyapps="http://info.simplyapps.game.hedgehog.rendering"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/homescreen" >
+    
+    <info.simplyapps.game.hedgehog.screens.HomeView
+        android:id="@+id/homeview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        simplyapps:screenScale="0"
+        simplyapps:orientation="false"
+        simplyapps:gameMapWidth="16"
+        simplyapps:gameMapHeight="9" />
+
+</FrameLayout>
