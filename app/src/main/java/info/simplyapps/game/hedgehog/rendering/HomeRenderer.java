@@ -142,9 +142,12 @@ public class HomeRenderer extends HedgehogRendererTemplate {
             // draw image across screen
             int h = 0;
             int v = 0;
+            Rect r = getSprites().gBackground.image.copyBounds();
+            r.offsetTo(0, 0);
+            getSprites().gBackground.image.setBounds(r);
+            getSprites().gBackground.image.draw(canvas);
             while (h < screenWidth && v < screenHeight) {
-                getSprites().gBackground.image.draw(canvas);
-                Rect r = getSprites().gBackground.image.copyBounds();
+                r = getSprites().gBackground.image.copyBounds();
                 h = r.right;
                 if (h > screenWidth) {
                     v = r.bottom;
@@ -152,11 +155,12 @@ public class HomeRenderer extends HedgehogRendererTemplate {
                 }
                 r.offsetTo(h, v);
                 getSprites().gBackground.image.setBounds(r);
-                if (v > screenHeight) {
+                if(v > screenHeight) {
                     r.offsetTo(0, 0);
                     getSprites().gBackground.image.setBounds(r);
                     break;
                 }
+                getSprites().gBackground.image.draw(canvas);
             }
         }
 
