@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Hedgehog</string>
-    <string name="creator">SimplyApps.info</string>
+    <string name="creator">Juergen Kleck</string>
   	<string name="btn_quit">Quit</string>
   	<string name="btn_ok">OK</string>
   	<string name="error">Error</string>
